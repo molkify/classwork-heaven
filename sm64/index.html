@@ -34,6 +34,7 @@
     </style>
   </head>
   <body>
+  <center>
   <h1>Controls: Movement: Arrow Keys
 A: X
 B: C
@@ -41,8 +42,14 @@ R: Q
 Z: Space
 Start: Enter
 C-stick: WASD</h1>
+<br>
+<script>var elem = document.getElementById("fullscreen");
+function openFullscreen() {
+  if (elem.requestFullscreen) {
+    elem.requestFullscreen();</script>
 <hr>
-    <div id="container">
+</center>
+    <div id="container" id="fullscreen">
       <canvas class="emscripten" id="canvas"></canvas>
     </div>
     <script type='text/javascript'>

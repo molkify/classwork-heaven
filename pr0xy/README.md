@@ -1,2 +1,0 @@
-# chproxy
-Created with CodeSandbox

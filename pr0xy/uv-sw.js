@@ -1,9 +1,9 @@
 // The service worker for Ultraviolet
 // This handles the requests for the proxy
 
-importScripts("uv/uv.bundle.js");
-importScripts("uv/uv.config.js");
-importScripts(__uv$config.sw || "uv/uv.sw.js");
+importScripts("pr0xy/uv/uv.bundle.js");
+importScripts("pr0xy/uv/uv.config.js");
+importScripts(__uv$config.sw || "pr0xy/uv/uv.sw.js");
 
 const sw = new UVServiceWorker();
 

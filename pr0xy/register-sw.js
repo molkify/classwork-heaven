@@ -4,7 +4,7 @@ const BARE_SERVER = "https://tomp.app";
 
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker
-    .register("/uv-sw.js", {
+    .register("uv-sw.js", {
       scope: "/service/",
     })
     .then(() => {

@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 html {
-background-color: #194b7a;
+background-color: #0e3a64;
 }
 
 h1 {
@@ -28,6 +28,10 @@ button {
   border: 3px solid white;
   border-radius: 16px;
   background-color: #32475B
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 button:hover {

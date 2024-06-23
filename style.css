@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 html {
-background-color: rgb(0,0,0);
+background-color: #001a33;
 }
 
 h1 {
@@ -27,19 +27,32 @@ button {
   font-family: "Nunito", sans-serif;
   border: 3px solid white;
   border-radius: 16px;
-  background-color:black
+  background-color: #32475B
+}
+
+button:hover {
+    cursor: pointer;
 }
 
 header {
-  background-color: #001a33;
+  background-color: #32475B;
   color: #fff;
   padding: 30px;
   position: fixed;
   top: 0%;
-  left: 0%;
+  left: 7%;
   margin: 0;
   z-index: 1000;
   align-items: center;
   display: flex;
-  width: 100%;
+  width: 80%;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-left: 3px solid;
+  border-right: 3px solid;
+  border-bottom: 3px solid;
+}
+
+header button {
+    margin-left: 800%;
 }

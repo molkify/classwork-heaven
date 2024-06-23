@@ -22,11 +22,24 @@ h3,h4,h5,h6,a,p {
     color: white;
 }
 
-#particles-js {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: -1;
+button {
+  color: white;
+  font-family: "Nunito", sans-serif;
+  border: 3px solid white;
+  border-radius: 16px;
+  background-color:black
+}
+
+header {
+  background-color: #001a33;
+  color: #fff;
+  padding: 30px;
+  position: fixed;
+  top: 0%;
+  left: 0%;
+  margin: 0;
+  z-index: 1000;
+  align-items: center;
+  display: flex;
+  width: 100%;
 }

@@ -3,7 +3,7 @@
 .input {
   width: 100%;
   background-color: transparent;
-  border: 1.5px #32475B solid;
+  border: 1.5px #000000 solid;
   border-radius: 5px;
   font-size: 14px;
   padding: 12px;
@@ -17,7 +17,7 @@
 
 html {
   text-align: center;
-  background-color: #194b7a;
+  background-color: #000000;
 }
 
 h1 {
